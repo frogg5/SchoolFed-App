@@ -2,13 +2,9 @@
 
 # Directions to run: run python on "app.py"
 
-05/22/2022
-
 SCHOOL FED
 
-Jeffrey Lam - jeffreylam001@gmail.com
-Linda Xue - lexue28@gmail.com
-Linden Zheng linden.zheng@gmail.com
+By Jeffrey Lam - jeffreylam001@gmail.com, Linda Xue - lexue28@gmail.com, Linden Zheng linden.zheng@gmail.com
 
 Schoolfed is an easy-to-use budgeting app designed for students.
 Many students, including our team members, struggle with budgeting—
