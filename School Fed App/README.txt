@@ -1,8 +1,12 @@
+#################################################
+
+Directions to run: run python on "app.py"
+
+#################################################
+
 05/22/2022
 
-NHacks version
-
-SCHOOL FED by MONEY MATTERS
+SCHOOL FED
 
 Jeffrey Lam - jeffreylam001@gmail.com
 Linda Xue - lexue28@gmail.com
@@ -14,7 +18,6 @@ especially in this age, where transactions are made with just the swipe
 of a card. It turns out that managing finances is a common struggle,
 which is why we created Schoolfed.
 
-Directions to run: run python on app.py
 
 Tesseract OCR is required. An installer for win64 tesseract ocr is in a ZIP folder.
 
