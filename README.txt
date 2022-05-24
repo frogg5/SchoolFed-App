@@ -4,8 +4,6 @@ Directions to run: run python on "app.py"
 
 #################################################
 
-05/22/2022
-
 SCHOOL FED
 
 Jeffrey Lam - jeffreylam001@gmail.com
