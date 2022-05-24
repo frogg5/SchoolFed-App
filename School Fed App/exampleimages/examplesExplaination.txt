@@ -1,0 +1,1 @@
+rename any of these into "caputure.png", put it into the main directory with main.py, and run main() on main.py, it will analyze one of these files instead of a receipt taken from the in-app camera
