@@ -263,6 +263,5 @@ def analyze():
             writetoCSVdict(k_dictionarynameandcost, True) #writes to temporary csv, overriden every run
 
         return(totalUnknown)
+        
     main()
-    #wherepyGraph()
-    #sortPyGraph()
