@@ -54,6 +54,7 @@ the sort tab shows how much you spent at each store in small to large order!"
 
 Builder.load_string("""
 <ScreenOne>:
+
     FloatLayout:
         Image:
             source: 'icons/Schoolfed.png'
