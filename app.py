@@ -35,7 +35,7 @@ Window.clearcolor = (0.3, 0.5, 0.2, 0.8)
 class CameraClick(BoxLayout):
     def capture(self):
             camera = self.ids['camera']
-            camera.export_to_png("capture.png")
+            camera.export_to_png("icons/capture.png")
             print("Captured")
             analysis()
 
@@ -56,7 +56,7 @@ Builder.load_string("""
 <ScreenOne>:
     FloatLayout:
         Image:
-            source: 'Schoolfed.png'
+            source: 'icons/Schoolfed.png'
             keep_ratio: False
             allow_stretch: True
             opacity: 0.8
@@ -76,7 +76,7 @@ Builder.load_string("""
 
 
         Button:
-            background_normal: 'cameraicon.png'
+            background_normal: 'icons/cameraicon.png'
             size: 147, 50
             size_hint: None, None
             on_press:
@@ -86,7 +86,7 @@ Builder.load_string("""
                 root.manager.transition.duration = 1
                 root.manager.current = 'screen_two'
         Button:
-            background_normal: 'graphicon.png'
+            background_normal: 'icons/graphicon.png'
             #text: "Graphs"
             background_color: 0, 1, 0, 0.8
             size: 147, 50
@@ -96,7 +96,7 @@ Builder.load_string("""
                 root.manager.transition.duration = 1
                 root.manager.current = 'screen_three'
         Button:
-            background_normal: 'listicon.png'
+            background_normal: 'icons/listicon.png'
             background_color: 0, 1, 0, 1
             size: 147, 50
             size_hint: None, None
@@ -110,7 +110,7 @@ Builder.load_string("""
 <ScreenTwo>:
     FloatLayout:
         Button:
-            background_normal: 'backbutton.png'
+            background_normal: 'icons/backbutton.png'
             pos: 0, 710
             size: 100, 100
             size_hint: None, None
@@ -148,7 +148,7 @@ Builder.load_string("""
     FloatLayout:
         Button:
 
-            background_normal: 'backbutton.png'
+            background_normal: 'icons/backbutton.png'
             pos: 0, 710
             size: 100, 100
             size_hint: None, None
@@ -193,7 +193,7 @@ Builder.load_string("""
 <ScreenFour>:
     FloatLayout:
         Button:
-            background_normal: 'backbutton.png'
+            background_normal: 'icons/backbutton.png'
             pos: 0, 710
             size: 100, 100
             size_hint: None, None
@@ -228,7 +228,7 @@ Builder.load_string("""
 """)
 
 LabelBase.register(name='Squad',
-                   fn_regular='Squad.ttf')
+                   fn_regular='fonts/Squad.ttf')
 # Create a class for all screens in which you can include
 # helpful methods specific to that screen
 class ScreenOne(Screen):
@@ -243,7 +243,7 @@ class ScreenTwo(Screen):
     def capture(self):
 
         camera = self.ids['camera']
-        camera.export_to_png("capture.png")
+        camera.export_to_png("icons/capture.png")
         print("Captured")
         analysis()
 
@@ -290,7 +290,7 @@ screen_manager.add_widget(ScreenFour(name ="screen_four"))
 #screen_manager.current = "School Fed"
 
 class ScreenApp(App):
-    icon = "Schoolfed.png"
+    icon = "icons/Schoolfed.png"
     title = 'School Fed'
     def build(self):
         '''self.window = GridLayout()
